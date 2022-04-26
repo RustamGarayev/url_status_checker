@@ -1,4 +1,4 @@
-# News Board API
+# URL Status Checker
 In this project, we will be using asynchronous requests to get the status codes of the urls defined by each user. 
 
 # Used Technologies
@@ -18,7 +18,7 @@ Simple enough:
 
 `cd ..`
 
-`uvicorn --reload asyncviews.asgi:application`
+`uvicorn --reload url_status_checker.asgi:application`
 
 `uvicord` is a single-threaded server that can be used to run Django application as an ASGI instead of WSGI. It is used to send asynchronous requests to the defined urls.
 
