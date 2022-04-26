@@ -1,4 +1,4 @@
-# News Board API
+# URL Status Checker
 In this project, we will be using asynchronous requests to get the status codes of the urls defined by each user. 
 
 # Used Technologies
