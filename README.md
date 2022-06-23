@@ -32,7 +32,7 @@ You can run the code in 2 modes:
 2. async mode:
     ```uvicorn --reload url_status_checker.asgi:application```
 
-`uvicord` is a single-threaded server that can be used to run Django application as an ASGI instead of WSGI. It is used to send asynchronous requests to the defined urls.
+`uvicorn` is a single-threaded server that can be used to run Django application as an ASGI instead of WSGI. It is used to send asynchronous requests to the defined urls.
 
 ## Project dependencies
 
